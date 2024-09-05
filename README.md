@@ -8,12 +8,13 @@
 Read, store bytes as unsigned integers. Convert each integer to an 8-bit binary, sign-extended, reverse order bytes of each address. Translate binary addresses by extracting page offset and virtual page number (VPN). Use lookup table (lookupTable = {2, 4, 1, 7, 3, 5, 6};) to matches VPN to physical page number, combine it with offset to get the PA.
 
 # Usage)
-**-unix comands**
+**- Unix comands**
 * USER:$ cd Downloads/VirtualToPhysicalAddress/
-  *to compile
+* to compile
 * USER:/ Downloads/VirtualToPhysicalAddress/$ make
- *to run
+* to run
 * USER:/ Downloads/VirtualToPhysicalAddress/$ make run
-   *to generate javadoc
+* to generate javadoc
 * USER:/ Downloads/VirtualToPhysicalAddress/$ make doc
-* Alternatively run the VirtualToPhysicalAddress.java file directly  
+**- Alternatively**
+* run the VirtualToPhysicalAddress.java file directly  
