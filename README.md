@@ -9,8 +9,11 @@ Read, store bytes as unsigned integers. Convert each integer to an 8-bit binary,
 
 # Usage)
 **-unix comands**
-USER:$ cd Downloads/VirtualToPhysicalAddress/
-USER:/ Downloads/VirtualToPhysicalAddress/$ make
-USER:/ Downloads/VirtualToPhysicalAddress/$ make run
-
--Alternatively run the VirtualToPhysicalAddress.java file directly  
+* USER:$ cd Downloads/VirtualToPhysicalAddress/
+  *to compile
+* USER:/ Downloads/VirtualToPhysicalAddress/$ make
+ *to run
+* USER:/ Downloads/VirtualToPhysicalAddress/$ make run
+   *to generate javadoc
+* USER:/ Downloads/VirtualToPhysicalAddress/$ make doc
+* Alternatively run the VirtualToPhysicalAddress.java file directly  
